@@ -6,6 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class Application {
 private Map<String,Object> cache = new HashMap<String,Object>(); 
+private static final String REST_URL = "www.google.com";
+    
     public static void main(String[] args) {
 		//main class runs from here
         SpringApplication.run(Application.class, args);
